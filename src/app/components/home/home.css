@@ -1,0 +1,58 @@
+.home-container {
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.primary-btn {
+  padding: 12px 25px;
+  background: #ff9800;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.search-btn {
+  padding: 10px 20px;
+  background-color: #2a5298;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.featured-rooms {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.room-card {
+  width: 250px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .search-section,
+  .featured-rooms {
+    flex-direction: column;
+    align-items: center;
+  }
+}
