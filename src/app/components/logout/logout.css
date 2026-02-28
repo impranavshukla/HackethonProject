@@ -1,11 +1,11 @@
-.logout-container {
-  text-align: center;
-  padding: 100px;
+.logout-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
 }
-@media (max-width: 768px) {
-  .search-section,
-  .featured-rooms {
-    flex-direction: column;
-    align-items: center;
-  }
+
+.logout-card {
+  padding: 40px;
+  text-align: center;
 }

@@ -1,19 +1,24 @@
-.profile-container {
-  padding: 40px;
-  text-align: center;
+.profile-page {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
 }
 
 .profile-card {
-  max-width: 400px;
-  margin: auto;
-  padding: 20px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+  width: 300px;
 }
-@media (max-width: 768px) {
-  .search-section,
-  .featured-rooms {
-    flex-direction: column;
-    align-items: center;
-  }
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-size: 32px;
 }
