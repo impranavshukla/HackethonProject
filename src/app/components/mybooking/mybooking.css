@@ -1,0 +1,20 @@
+.dashboard {
+  padding: 60px;
+}
+
+.booking-card {
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+.status {
+  padding: 6px 15px;
+  border-radius: 20px;
+  color: white;
+}
+
+.confirmed {
+  background: green;
+}

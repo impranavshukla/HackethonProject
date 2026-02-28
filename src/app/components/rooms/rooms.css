@@ -1,0 +1,26 @@
+.rooms-container {
+  padding: 40px;
+  text-align: center;
+}
+
+.room-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.room-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.room-card button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #2a5298;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

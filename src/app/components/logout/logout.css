@@ -1,0 +1,11 @@
+.logout-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.logout-card {
+  padding: 40px;
+  text-align: center;
+}
